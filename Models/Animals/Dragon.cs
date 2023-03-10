@@ -1,9 +1,9 @@
 ﻿using CSharpAnimals.Models;
-
+using CSharpAnimals.Services;
 
 namespace CSharpAnimals.Models.Animals
 {
-    class Dragon : Animal
+    class Dragon : Animal ,ISteering
     {   
         public override void Move()
         {
@@ -12,6 +12,11 @@ namespace CSharpAnimals.Models.Animals
         public new void Sleep() 
         {
             Console.WriteLine("Je suis un mechant Dragon qui s'est endormi");
+        }
+
+        public new void Moove() 
+        {
+            Console.WriteLine("Mooveeeeee");
         }
 
         
