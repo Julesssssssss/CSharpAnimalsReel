@@ -19,6 +19,9 @@ namespace CSharpAnimals.Models.Animals
             Console.WriteLine("Mooveeeeee");
         }
 
-        
+        public new void Flying()
+        {
+            Console.WriteLine("Krokmouuuuuuuuuuuuuuuuu");
+        }
     }
 }

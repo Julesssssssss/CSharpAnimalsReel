@@ -15,5 +15,10 @@ namespace CSharpAnimals.Models.Animals
             Console.WriteLine("Le griffin dort");
         }
 
+        public new void Flying() 
+        {
+            Console.WriteLine("Le GRIFFAIM IL VOLE CE FDP D'ANGLAIS");
+        }
+
     }
 }
