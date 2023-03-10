@@ -8,6 +8,6 @@ namespace CSharpAnimals.Services
 {
     internal interface IFlying
     {
-        public void Flying();
+        public void Fly();
     }
 }

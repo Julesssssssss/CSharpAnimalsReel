@@ -15,18 +15,18 @@ class Program
         Krokmou.Sleep();
         Krokmou.Move();
         Krokmou.Moove();
-        Krokmou.Flying();
+        Krokmou.Fly();
 
         Griffin Manu = new();
         Manu.Sleep();
         Manu.Move();
-        Manu.Flying();
+        Manu.Fly();
 
-        Eagle Lionel = new();
-        Lionel.Flying();
+        Eagle Lionel = new("Lionel");
+        Lionel.Fly();
 
         Bird Emericus = new();
-        Emericus.Flying();
+        Emericus.Fly();
 
         Dog chien = new("Snow","Commun",1,14);
         Dog chien1 = new("Armand","Rare",2, 15);

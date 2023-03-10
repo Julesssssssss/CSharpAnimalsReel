@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace CSharpAnimals.Models.Animals
 {
-    internal class Bird
+    internal class Bird : Animal , IFlying
     {
-        public new void Flying() 
+        public void Fly() 
         {
             Console.WriteLine("Je ne m'en vais pas je vole, comprenez bien je vole sans fumée sans alcool je vole");
         }

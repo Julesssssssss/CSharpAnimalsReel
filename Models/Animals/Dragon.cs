@@ -3,7 +3,7 @@ using CSharpAnimals.Services;
 
 namespace CSharpAnimals.Models.Animals
 {
-    class Dragon : Animal ,ISteering
+    class Dragon : Animal ,ISteering, IFlying
     {   
         public override void Move()
         {
@@ -19,7 +19,7 @@ namespace CSharpAnimals.Models.Animals
             Console.WriteLine("Mooveeeeee");
         }
 
-        public new void Flying()
+        public void Fly()
         {
             Console.WriteLine("Krokmouuuuuuuuuuuuuuuuu");
         }

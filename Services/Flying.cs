@@ -8,7 +8,7 @@ namespace CSharpAnimals.Services
 {
     internal class Flying : IFlying
     {
-        void IFlying.Flying()
+        public void Fly()
         {
             Console.WriteLine("I belive i can fly");
         }

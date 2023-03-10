@@ -1,10 +1,9 @@
 ﻿using CSharpAnimals.Models;
-
-
+using CSharpAnimals.Services;
 
 namespace CSharpAnimals.Models.Animals
 {
-    class Griffin : Animal
+    class Griffin : Animal, IFlying
     {
         public override void Move()
         {
@@ -15,9 +14,9 @@ namespace CSharpAnimals.Models.Animals
             Console.WriteLine("Le griffin dort");
         }
 
-        public new void Flying() 
+        public void Fly() 
         {
-            Console.WriteLine("Le GRIFFAIM IL VOLE CE FDP D'ANGLAIS");
+            Console.WriteLine("Le GRIFFON IL VOLE ");
         }
 
     }
